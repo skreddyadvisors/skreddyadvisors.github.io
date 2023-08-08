@@ -480,6 +480,7 @@
           <div class="col-12 col-md-6">
             <form
               action="php/form.php"
+
               id="nexgen-subscribe"
               class="row m-auto items"
             >
@@ -533,9 +534,12 @@
             <div class="row">
               <div class="col-12 p-0">
                 <form
-                  action="php/form.php"
+                target="_blank"
+                  action="https://formsubmit.co/info.skreddyadvisors@gmail.com"
                   id="nexgen-simple-form"
+
                   class="nexgen-simple-form"
+                  method="POST"
                 >
                   <input type="hidden" name="section" value="nexgen_form" />
 
@@ -587,12 +591,14 @@
                       ></textarea>
                     </div>
                     <div class="col-12 col-12 m-0 p-2 input-group">
-                      <span class="form-alert"></span>
+                      <!-- <span class="form-alert"></span> -->
+                      <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html">
                     </div>
                     <div class="col-12 input-group m-0 p-2">
-                      <a class="btn primary-button">SEND</a>
+                      <a class="btn primary-button" type="submit" >SEND</a>
                     </div>
                   </div>
+
                 </form>
               </div>
             </div>
